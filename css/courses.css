@@ -1,0 +1,239 @@
+.courses__container {
+  padding-top: 77px;
+  padding-bottom: 50px;
+  max-width: 1170px;
+}
+
+.courses__title {
+  margin: 0;
+  margin-bottom: 23px;
+  padding-left: 15px;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+
+.courses-list__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.courses-list__item {
+  position: relative;
+  min-height: 480px;
+  margin-bottom: 31px;
+}
+
+.courses-list__item--fitime::before {
+  content: '60 часов';
+  position: absolute;
+  padding-left: 29px;
+  padding-top: 5px;
+  z-index: 100;
+  right: 19px;
+  top: 10px;
+  background-image: url(../img/clock.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  color: var(--white-text-color);
+}
+
+.courses-list__item--setime::before {
+  content: '40 часов';
+  position: absolute;
+  padding-left: 29px;
+  padding-top: 5px;
+  z-index: 100;
+  right: 19px;
+  top: 10px;
+  background-image: url(../img/clock.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  color: var(--white-text-color);
+}
+
+.courses-list__item--thtime::before {
+  content: '40 часов';
+  position: absolute;
+  padding-left: 29px;
+  padding-top: 5px;
+  z-index: 100;
+  right: 19px;
+  top: 10px;
+  background-image: url(../img/clock.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  color: var(--white-text-color);
+}
+
+.courses-list__item--fotime::before {
+  content: '80 часов';
+  position: absolute;
+  padding-left: 29px;
+  padding-top: 5px;
+  z-index: 100;
+  right: 19px;
+  top: 10px;
+  background-image: url(../img/clock.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  color: var(--white-text-color);
+}
+
+.courses-list__descr {
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--grey-text-color);
+}
+
+.courses-list__button {
+  position: absolute;
+  bottom: 30px;
+  padding: 20px 59px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.course-list-content {
+  position: relative;
+  height: 100%;
+  background-color: #EDF0F9;
+  overflow: hidden;
+  border-radius: 20px;
+  padding-bottom: 100px;
+}
+
+.course-list-content__text-block {
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.course-list-content__img {
+  width: 100%;
+  height: 47%;
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .courses-list__item--fitime::before {
+    right: 25px;
+  }
+
+  .courses-list__item--setime::before {
+    right: 25px;
+  }
+
+  .courses-list__item--thtime::before {
+    right: 25px;
+  }
+
+  .courses-list__item--fotime::before {
+    right: 25px;
+  }
+
+  .courses-list__item {
+    min-height: 556px;
+    margin-bottom: 29px;
+  }
+
+  .courses-list__title {
+    margin-bottom: 10px;
+  }
+
+  .courses-list__button {
+    padding: 20px 56px;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .courses__container {
+    padding-bottom: 54px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 72px;
+  }
+
+  .courses-list__title {
+    line-height: 130%;
+  }
+
+  .courses-list__descr {
+    margin-bottom: 11px;
+  }
+
+  .courses-list__button {
+    padding: 20px 57px;
+  }
+
+  .course-list-content__img {
+    width: 100%;
+    height: 40%;
+}
+}
+
+@media (max-width: 650px) {
+
+  .courses__container {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 50px;
+  }
+
+  .courses-list__item {
+    min-height: 652px;
+    margin-bottom: 32px;
+  }
+
+  .courses-list__title {
+    max-width: 194px;
+  }
+
+  .courses-list__button  {
+    padding: 20px 48px;
+  }
+
+  .course-list-content__img {
+    width: 100%;
+    height: 33%;
+}
+}
+
+@media (max-width: 375px) {
+
+  .courses__container {
+    padding: 48px 0px 22px 0px;
+  }
+
+  .courses-list__item {
+    min-height: 653px;
+    margin-bottom: 29px;
+}
+
+  .courses__title {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+
+  .courses-list__button {
+    padding: 20px 57px;
+}
+
+.course-list-content {
+  padding-bottom: 88px;
+}
+
+.course-list-content__img {
+  height: 32%;
+}
+
+
+}
